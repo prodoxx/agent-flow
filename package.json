@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "setup": "node scripts/setup.js",
     "build:extension": "pnpm --filter agent-flow run build",
     "build:web": "pnpm --filter agent-flow-web run build",
     "build:webview": "pnpm --filter agent-flow-web run build:webview",
